@@ -129,6 +129,9 @@ form
 .no-margin-bottom
   margin-bottom 0
   
+.padding-vertical-md
+  padding-top    25px
+  padding-bottom 25px
 .padding-top-md
   padding-top 25px
 .padding-top-lg
@@ -141,6 +144,12 @@ form
       max-width 200px
     &:nth-child(odd)
       bg $gris
+  &.even
+    .section
+      &:nth-child(odd)
+        bg none
+      &:nth-child(even)
+        bg $gris
 
 .subtitle
   margin 25px 0 20px

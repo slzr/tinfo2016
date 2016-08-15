@@ -132,6 +132,10 @@ form.login {
 .no-margin-bottom {
   margin-bottom: 0;
 }
+.padding-vertical-md {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 .padding-top-md {
   padding-top: 25px;
 }
@@ -145,6 +149,12 @@ form.login {
   max-width: 200px;
 }
 .sections .section:nth-child(odd) {
+  background-color: #ecf0f1;
+}
+.sections.even .section:nth-child(odd) {
+  background: none;
+}
+.sections.even .section:nth-child(even) {
   background-color: #ecf0f1;
 }
 .subtitle {

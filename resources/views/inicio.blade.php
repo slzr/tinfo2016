@@ -10,7 +10,7 @@
     <div class="col-xs-6">
       <div class="page-header">
         <h1>EXP+</h1>
-        <p>Blog de tendencias Informaticas</p>
+        <p>Red de aprendizaje web.</p>
       </div>
     </div>
   </div>
@@ -29,7 +29,7 @@
       <div class="col-sm-8">
         <h2>Aprende</h2>
         <p>El aprendizaje a distancia no es una moda, es una tendencia arraigada por la necesidad de aprender desde la comodidad de tu casa.</p>
-        <p>Aprende a programar multitudes de lenguajes y sobre las tecnologias actuales mas utilizadas atravez de nuestra red de profesores y sistema de videotutoriales.</p>
+        <p>Aprende a programar multitudes de lenguajes y tecnologias actuales mas utilizadas atravez de nuestra red de profesores y sistema de videotutoriales.</p>
       </div>
       <div class="col-sm-4 text-center">
         <img src="{{ asset('images/browser-3.png') }}" alt="">
@@ -40,7 +40,7 @@
   <div class="section">
     <div class="container">
       <div class="col-sm-4 text-center">
-        <img src="{{ asset('images/browser-2.png') }}" alt="" class="">
+        <img src="{{ asset('images/laptop.png') }}" alt="" class="">
       </div>
       <div class="col-sm-8 text-right">
         <h2>Practica</h2>
@@ -53,7 +53,8 @@
     <div class="container">
       <div class="col-sm-8">
         <h2>¡Gana!</h2>
-        <p>Contamos con una red de empresas disponibles con las que puedes ganar experiencia desarrollando aplicaciones reales del mundo laboral actual. para cuando termines cualquieras de nuestros cursos no solo contaras con los conocimientos necesarios sino que tambien con experiencia valida y un portafolio profesional.</p>
+        <p>Contamos con una red de empresas disponibles con las que puedes ganar experiencia desarrollando aplicaciones reales del mundo laboral actual.</p>
+        <p>Cuando termines cualquiera de nuestros cursos, no solo contaras con los conocimientos necesarios, sino tambien con experiencia valida y un portafolio profesional.</p>
       </div>
       <div class="col-sm-4 text-center">
         <img src="{{ asset('images/quality.png') }}" alt="">
@@ -63,8 +64,8 @@
 </div>
 
 
-<div class="container">
-  <h2 class="text-center subtitle">Exp+ como un ecosistema de aprendizaje</h2>
+<div class="container padding-vertical-md">
+  <h2 class="text-center subtitle">Exp+ como un ecosistema de aprendizaje.</h2>
   <div class="row">
     <div class="col-md-3">
       <img src=" {{ asset('images/dev.png') }}" alt="" class="img-md">
@@ -89,7 +90,7 @@
   </div>
 </div>
 
-<div class="bg-gris">
+<div class="bg-gris padding-vertical-md">
   <div class="container">
     <h2 class="text-center">Red de aprendizaje</h2>
     <div class="logos">
