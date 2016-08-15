@@ -227,3 +227,72 @@ form.login {
 .logos .logo img {
   width: 100%;
 }
+.recursos .recurso h2 {
+  color: #2c3e50;
+  font-size: 36px;
+  font-weight: normal;
+}
+.recursos .recursos-links {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0;
+}
+.recursos .recursos-links a {
+  background-color: #2c3e50;
+  color: rgba(255,255,255,0.5);
+  display: inline-block;
+  padding: 5px 15px;
+  font-size: 18px;
+  -webkit-transition: all 0.15s;
+  transition: all 0.15s;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.recursos .recursos-links a:last-child {
+  margin-right: 0px;
+}
+.recursos .recursos-links a:hover {
+  color: rgba(255,255,255,0.9);
+  text-decoration: none;
+}
+.recursos .recursos-links a:hover img {
+  -webkit-transform: scale(1.15);
+      -ms-transform: scale(1.15);
+          transform: scale(1.15);
+}
+.recursos .recursos-links a > * {
+  vertical-align: middle;
+}
+.recursos .recursos-links a img {
+  -webkit-transition: all 0.15s;
+  transition: all 0.15s;
+  width: 35px;
+}
+.big-img-link {
+  color: rgba(52,152,219,0.75);
+  display: inline-block;
+  -webkit-transition: all 0.15s;
+  transition: all 0.15s;
+}
+.big-img-link:hover {
+  color: rgba(52,152,219,0.95);
+  text-decoration: none;
+}
+.big-img-link:hover img {
+  -webkit-transform: scale(1.15);
+      -ms-transform: scale(1.15);
+          transform: scale(1.15);
+}
+.big-img-link img {
+  width: 200px;
+  -webkit-transition: all 0.15s;
+  transition: all 0.15s;
+}
+.remodal-close {
+  right: 0;
+  left: auto;
+}
+.remodal {
+  max-width: 990px;
+}

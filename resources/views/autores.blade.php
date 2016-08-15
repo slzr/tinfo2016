@@ -67,7 +67,7 @@
   <div class="autor container">
     <div class="col-sm-8">
       <h2>Wilmer Salazar</h2>
-      <p>Con 21 años de edad soy estudiande del 7mo semestre de Ing.Informatica, autodidacta, interesado en conocer las nuevas tecnologias de programacion web, tanto en el area de Front-end como Back-end. El lenguaje de programacion con el cual me desenvuelvo mejor es Java, deseoso de aprender cada dia mas y poder formarme como un buen profesional para poder irme de este maldito pais en la primera oportunidad.</p>
+      <p>Con 21 años de edad soy estudiande del 7mo semestre de Ing.Informatica, autodidacta, interesado en conocer las nuevas tecnologias de programacion web, tanto en el area de Front-end como Back-end. El lenguaje de programacion con el cual me desenvuelvo mejor es Java, deseoso de aprender cada dia mas y poder formarme como un buen profesional.</p>
     </div>
     <div class="col-sm-4 text-center ">
       <img src="{{ asset('images/wilmer.jpg') }}" >

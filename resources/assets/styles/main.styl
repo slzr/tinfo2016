@@ -208,3 +208,54 @@ form
     img
       width 100%
     
+.recursos
+  .recurso
+    h2
+      color       $primary
+      font-size   36px
+      font-weight normal
+  .recursos-links
+    text-align center
+    margin-top 15px
+    font-size 0
+    a
+      bg            $primary
+      color         rgba(white, .5)
+      display       inline-block
+      padding       5px 15px
+      font-size     18px
+      transition    all .15s
+      border-radius 5px
+      margin-bottom 10px
+      margin-right  10px
+      &:last-child
+        margin-right 0px
+      &:hover
+        color         rgba(white, .9)
+        text-decoration none
+        img
+          transform scale(1.15)
+      > *
+        vertical-align middle
+      img
+        transition all .15s
+        width 35px
+
+.big-img-link
+  color      rgba($info, .75)
+  display    inline-block
+  transition all .15s
+  &:hover
+    color           rgba($info, .95)
+    text-decoration none
+    img
+      transform scale(1.15)
+  img
+    width 200px
+    transition all .15s
+    
+.remodal-close
+  right 0
+  left auto
+.remodal
+  max-width  990px
